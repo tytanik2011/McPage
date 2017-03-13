@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    font-size: 0;
+}
+body{
+    background-color: #3d3d3d;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header{
+    width: 100vw;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 62px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: 2px 2px #000000;
+}
+nav{
+    background-color: indianred;
+    width: 100vw;
+    margin-bottom: 1vw;
+}
+nav ul{
+    list-style: none;
+    line-height: 30px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.liHidden{
+    flex: 1;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 1vh 2vw 1vh 2vw;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+}
+nav ul li a:hover{
+    background-color: #BC4B4B;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vw;
+}
+.left{
+    background-color: bisque;
+    width: 69.5vw;
+    padding: 1vh;
+    margin-right: 1vw;
+    /*min-height: 70vh;*/
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.left p{
+    padding: 1vw 2vw;
+}
+.left img{
+    width: 30vw;
+    float: left;
+    padding: 0 1vw 0 0;
+}
+.left h1{
+    text-align: center;
+    align-self: center;
+    font-size: 36px;
+    padding: 1vh;
+    width: 40vw;
+    border-bottom: 2px solid indianred;
+}
+.left h2{
+    font-size: 24px;
+    padding: 0 1vw;
+}
+.right{
+    background-color: bisque;
+    width: 29.5vw;
+    padding: 1vw;
+}
+.right #caution{
+    background-color: white;
+}
+.right #caution h3{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 1vw;
+}
+.right #caution p{
+    padding: 1vw;
+    text-align: justify;
+    font-size: 14px;
+}
+.right #caution{
+    margin-bottom: 1vh;
+}
+.right #serverInfo{
+    background-color: red;
+}
+.right #playersCount p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 1vw;
+}
+.right #playersHeads{
+    font-size: 0;
+    background-color: white;
+}
+.right #playersHeads img{
+    width: 5.5vw;
+    margin: 0;
+    padding: 0.5vw;
+}
+.right .serverOn{
+    width: 27.5vw;
+    display: block;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 1vw;
+}
+.right .serverOff{
+    width: 27.5vw;
+    display: block;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 1vw;
+}
+.right .ip{
+    width: 27.5vw;
+    display: block;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    padding: 1vw;
+}
+footer{
+    width: 100vw;
+    height: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    display: inline-block;
+}
+.pHidden{
+    flex: 2;
+}.pHidden2{
+    flex: 1;
+}
+footer p:last-child{
+    text-align: right;
+    flex: 1;
+    padding-right: 1vh;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+@media screen and (max-width: 800px){
+    nav{
+        width: 100vw;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        text-transform: uppercase;
+        align-items: center;
+    }
+    nav ul li a{
+        width: 100vw;
+        text-align: center;
+    }
+    .liHidden{
+        flex: 0;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100vw;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .pHidden{
+        display: none;
+    }    
+    .pHidden2{
+        display: none;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer p{
+        text-align: center;
+        align-self: center;
+        padding: 2px;
+    }
+}
