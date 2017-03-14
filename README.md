@@ -1,4 +1,4 @@
-# McPage v. 0.1 by SOA Group (tytanik2011)
+<h1>McPage v. 0.1 by SOA Group (tytanik2011)</h1>
 #About
 ##  McPage to strona dla serwerów minecraft.
 #
