@@ -50,13 +50,15 @@ nav ul{
     text-decoration: none;
     color: white;
 }
-.navItem a{
-    display: block;
-    padding: 15px 30px;
+.navItem{
     transition: all 0.2s;
     -o-transition: all 0.2s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
+}
+.navItem a{
+    display: block;
+    padding: 15px 30px;
 }
 .navItem:hover{
     background-color: #BC4B4B;
