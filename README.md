@@ -1,7 +1,7 @@
 <h1>McPage v. 0.1 by SOA Group (tytanik2011)</h1>
 <h2>About</h2>
 <p>McPage to strona dla serwerów minecraft.</p>
-<p>DEMO: [1](http://soagroup.cba.pl/ "CLICK")</p>
+<p>DEMO: <a href="http://soagroup.cba.pl/">CLICK</a></p>
 <h2>TODO</h2>
 <p> Panel Administratora</p>
 <p> Panel instalacyjny oraz konfiguracyjny</p>
